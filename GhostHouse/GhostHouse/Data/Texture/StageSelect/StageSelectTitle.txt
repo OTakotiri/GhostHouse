@@ -1,0 +1,15 @@
+size
+800
+218
+stride
+800
+218
+dispsize
+800
+218
+position
+400
+150
+0.6
+frame
+1

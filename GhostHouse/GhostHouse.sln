@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostHouse", "GhostHouse\GhostHouse.vcxproj", "{C15CE988-3F17-4867-BE99-BC0A67F2C710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Debug|x64.ActiveCfg = Debug|x64
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Debug|x64.Build.0 = Debug|x64
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Debug|x86.ActiveCfg = Debug|Win32
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Debug|x86.Build.0 = Debug|Win32
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Release|x64.ActiveCfg = Release|x64
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Release|x64.Build.0 = Release|x64
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Release|x86.ActiveCfg = Release|Win32
+		{C15CE988-3F17-4867-BE99-BC0A67F2C710}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {060019D5-F48B-4FB1-814D-EC15CAA1EFBD}
+	EndGlobalSection
+EndGlobal

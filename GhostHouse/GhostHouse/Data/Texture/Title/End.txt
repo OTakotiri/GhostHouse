@@ -1,0 +1,15 @@
+size 
+536
+218
+stride
+536
+218
+dispsize
+536
+218
+position
+1000
+600
+0.6
+frame
+1

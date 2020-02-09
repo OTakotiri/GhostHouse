@@ -1,0 +1,15 @@
+size
+1600
+960
+stride
+1600
+960
+dispsize
+1600
+960
+position
+800
+480
+0.8
+frame
+1
