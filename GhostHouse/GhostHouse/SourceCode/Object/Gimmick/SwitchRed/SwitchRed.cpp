@@ -5,6 +5,7 @@
 CSwitchRed::CSwitchRed( const stObjectInfo& objInfo )
 	: m_isSayaka	( false )
 	, m_isTowa		( false )
+	, m_bisPush		( false )
 {
 	SetObjectInfo( objInfo );
 	INIT_POSITION_Y = m_vPosition.y;
@@ -75,12 +76,16 @@ void CSwitchRed::Action( shared_ptr<CObjectBase> pObj )
 			m_vPosition.y -= 0.1f;
 		} else {
 			pObj->BitFlagON(BitFlag::isMoveSwitchRed);
-			CPlaySEThread::SetSEName( "switch" );
+			if (m_bisPush == false) {
+				CPlaySEThread::SetSEName("switch");
+				m_bisPush = true;
+			}
 		}
 	} else {
 		if( m_vPosition.y < INIT_POSITION_Y ){
 			m_vPosition.y += 0.01f;
 			pObj->BitFlagOFF(BitFlag::isMoveSwitchRed );
+			m_bisPush = false;
 		}
 	}
 }

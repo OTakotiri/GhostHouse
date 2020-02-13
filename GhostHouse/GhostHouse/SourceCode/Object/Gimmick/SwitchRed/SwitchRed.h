@@ -29,6 +29,7 @@ private:
 	virtual void Action( shared_ptr<CObjectBase> pObj )	override;
 
 	shared_ptr<CDX9Mesh>	m_pStaticMesh;
+	bool m_bisPush;
 	bool m_isSayaka;
 	bool m_isTowa;
 };
